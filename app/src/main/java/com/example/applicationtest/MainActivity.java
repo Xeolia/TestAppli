@@ -20,9 +20,10 @@ public class MainActivity extends AppCompatActivity  {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),SecondFragment.class);
+                Intent intent = new Intent(getApplicationContext(),MyNewActivity.class);
                 startActivity(intent);
                 //finish();
+
             }
         });
     }
