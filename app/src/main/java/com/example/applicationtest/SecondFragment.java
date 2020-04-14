@@ -17,6 +17,7 @@ public class SecondFragment extends Fragment{
             LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState
     ) {
+
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_second, container, false);
     }
@@ -27,6 +28,7 @@ public class SecondFragment extends Fragment{
         view.findViewById(R.id.button_second).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
 
             }
         });
