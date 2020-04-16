@@ -17,9 +17,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MyNewActivity"
+        <activity android:name=".SecondFragment"
             android:screenOrientation="fullSensor" >
     </activity>
+        <activity android:name=".ThirdFragment"
+            android:screenOrientation="fullSensor" >
+        </activity>
     </application>
 
 </manifest>
