@@ -28,7 +28,8 @@ public class SecondFragment extends Fragment{
         view.findViewById(R.id.button_second).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                 //   Intent intent = new Intent(SecondFragment.this, MainActivity.class);
+                //startActivity(intent);
 
             }
         });

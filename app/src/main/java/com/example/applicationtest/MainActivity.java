@@ -3,30 +3,16 @@ package com.example.applicationtest;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    private Button button;
 
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate (Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragment_second);
-        Button one = (Button) findViewById(R.id.button);
-        one.setOnClickListener(this);
-       // this.button= findViewById(R.id.button);
-        Button two = (Button) findViewById(R.id.button2);
-        two.setOnClickListener(this);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                //finish();
-            }
-        });
+        setContentView(R.layout.activity_main);
     }
-
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
