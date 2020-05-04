@@ -20,15 +20,15 @@ public class MainActivity extends AppCompatActivity {
         button1.setOnClickListener(new OnClickListener() {
             // The code in this method will be executed when the numbers category is clicked on.
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
                 // Create a new intent to open the {@link NumbersActivity}
-                Intent firstIntent = new Intent(MainActivity.this, SecondFragment.class);
+                Intent firstIntent = new Intent(MainActivity.this, MonSecondFragment.class);
 
                 // Start the new activity
                 startActivity(firstIntent);
             }
         });
-        Button button2 = (Button) findViewById(R.id.button_second);
+        Button button2 = (Button) findViewById(R.id.buttonSecondeCarte);
         // Set a click listener on that View
         button2.setOnClickListener(new OnClickListener() {
             // The code in this method will be executed when the numbers category is clicked on.

@@ -11,7 +11,7 @@
         android:id="@+id/textview_second"
         android:layout_width="7dp"
         android:layout_height="111dp"
-        app:layout_constraintBottom_toTopOf="@id/button_second"
+        app:layout_constraintBottom_toTopOf="@id/button_retour"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -28,15 +28,15 @@
         android:layout_marginRight="24dp"
         android:contentDescription="@string/todo"
         android:scaleType="centerInside"
-        android:src="@drawable/cb"
-        app:layout_constraintBottom_toTopOf="@+id/button_second"
+        android:src="@drawable/carte_bleue"
+        app:layout_constraintBottom_toTopOf="@+id/button_retour"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.47" />
 
     <Button
-        android:id="@+id/button_second"
+        android:id="@+id/button_retour"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:freezesText="true"

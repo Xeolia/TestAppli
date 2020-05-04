@@ -18,11 +18,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SecondFragment"
-            android:screenOrientation="fullSensor"></activity>
+            android:name=".MonSecondFragment"
+            android:screenOrientation="fullSensor" />
         <activity
             android:name=".ThirdFragment"
-            android:screenOrientation="fullSensor"></activity>
+            android:screenOrientation="fullSensor" />
     </application>
 
 </manifest>
