@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link NumbersActivity}
-                Intent secondIntent = new Intent(MainActivity.this, ThirdFragment.class);
+                Intent secondIntent = new Intent(getApplicationContext(), ThirdFragment.class);
 
                 // Start the new activity
                 startActivity(secondIntent);

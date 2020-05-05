@@ -12,7 +12,7 @@ public class ThirdFragment extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_third);
-        Button one = (Button) findViewById(R.id.button_retour);
+        Button one = (Button) findViewById(R.id.button);
 
         one.setOnClickListener(new View.OnClickListener() {
 
